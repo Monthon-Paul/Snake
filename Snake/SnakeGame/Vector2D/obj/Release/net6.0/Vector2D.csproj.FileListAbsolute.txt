@@ -1,0 +1,12 @@
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/bin/Release/net6.0/Vector2D.deps.json
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/bin/Release/net6.0/Vector2D.dll
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/bin/Release/net6.0/Vector2D.pdb
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.csproj.AssemblyReference.cache
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.GeneratedMSBuildEditorConfig.editorconfig
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.AssemblyInfoInputs.cache
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.AssemblyInfo.cs
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.csproj.CoreCompileInputs.cache
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.dll
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/refint/Vector2D.dll
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/Vector2D.pdb
+/Users/monthonpaul/Projects/game-trout_mask_replica_game/Snake/SnakeGame/Vector2D/obj/Release/net6.0/ref/Vector2D.dll

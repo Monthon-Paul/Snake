@@ -1,0 +1,171 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NetworkController/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/NetworkController.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NetworkController.dll": {}
+        }
+      },
+      "Vector2D/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Vector2D.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Vector2D.dll": {}
+        }
+      },
+      "World/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "Vector2D": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/World.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/World.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NetworkController/1.0.0": {
+      "type": "project",
+      "path": "../NetworkController/NetworkController.csproj",
+      "msbuildProject": "../NetworkController/NetworkController.csproj"
+    },
+    "Vector2D/1.0.0": {
+      "type": "project",
+      "path": "../SnakeGame/Vector2D/Vector2D.csproj",
+      "msbuildProject": "../SnakeGame/Vector2D/Vector2D.csproj"
+    },
+    "World/1.0.0": {
+      "type": "project",
+      "path": "../World/World.csproj",
+      "msbuildProject": "../World/World.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "NetworkController >= 1.0.0",
+      "World >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/monthonpaul/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/monthonpaul/Projects/Snake/Snake/GameController/GameController.csproj",
+      "projectName": "GameController",
+      "projectPath": "/Users/monthonpaul/Projects/Snake/Snake/GameController/GameController.csproj",
+      "packagesPath": "/Users/monthonpaul/.nuget/packages/",
+      "outputPath": "/Users/monthonpaul/Projects/Snake/Snake/GameController/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/monthonpaul/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "/usr/local/share/dotnet/x64/library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/Users/monthonpaul/Projects/Snake/Snake/NetworkController/NetworkController.csproj": {
+              "projectPath": "/Users/monthonpaul/Projects/Snake/Snake/NetworkController/NetworkController.csproj"
+            },
+            "/Users/monthonpaul/Projects/Snake/Snake/World/World.csproj": {
+              "projectPath": "/Users/monthonpaul/Projects/Snake/Snake/World/World.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.401/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
