@@ -10,7 +10,7 @@ namespace SnakeGame;
 /// in order to play Snake Online multiplayer.
 ///
 /// Author - Monthon Paul
-/// Version - November 26, 2022
+/// Version - December 24, 2022
 /// </summary>
 public partial class MainPage : ContentPage {
 
