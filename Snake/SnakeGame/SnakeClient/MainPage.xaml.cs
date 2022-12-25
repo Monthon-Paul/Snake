@@ -150,9 +150,9 @@ public partial class MainPage : ContentPage {
 	/// <param name="e">triggle an event</param>
 	private void AboutButton_Clicked(object sender, EventArgs e) {
 		DisplayAlert("About",
-	  "SnakeGame solution\nArtwork by Jolie Uk and Alex Smith\nGame design by Daniel Kopta and Travis Martin\n" +
-	  "Implementation by Monthon Paul & Hong Chen\n" +
-		"CS 3500 Fall 2022, University of Utah", "OK");
+	  "Snake Game solution\n it's a full Online Multiplayer Game.\n" +
+	  "Users are allow to connect to a Snake Server \n" + "to play on a Network with other players.\n" +
+	  "Implementation by Monthon Paul\n", "OK");
 	}
 
 	/// <summary>
